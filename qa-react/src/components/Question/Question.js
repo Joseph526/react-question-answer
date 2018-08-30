@@ -12,7 +12,6 @@ class Question extends Component {
 
     async componentDidMount() {
         const { match: { params } } = this.props;
-        console.log(this.props);
         const question = (await axios.get(`http://localhost:3001/${params.questionId}`)).data;
         this.setState({
             question
