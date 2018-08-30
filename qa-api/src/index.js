@@ -4,6 +4,8 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const helmet = require("helmet");
 const logger = require("morgan");
+const jwt = require("express-jwt");
+const jwksRsa = require("jwks-rsa");
 
 // Declare the Express app
 const app = express();
