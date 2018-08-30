@@ -4,7 +4,7 @@
   "description": "React Question Answer app",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node ./src/index.js"
   },
   "repository": "https://github.com/Joseph526/react-question-answer",
   "license": "MIT",
