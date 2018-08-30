@@ -2,7 +2,7 @@
   "name": "qa-api",
   "version": "1.0.0",
   "description": "React Question Answer app",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start": "node ./src/index.js"
   },
