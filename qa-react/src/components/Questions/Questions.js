@@ -30,8 +30,8 @@ class Questions extends Component {
                                     <div className="card text-white bg-success mb-3">
                                         <div className="card-header">Answers: {question.answers}</div>
                                         <div className="card-body">
-                                            <div className="card-title">{question.title}</div>
-                                            <div className="card-body">{question.description}</div>
+                                            <h4 className="card-title">{question.title}</h4>
+                                            <p className="card-text">{question.description}</p>
                                         </div>
                                     </div>
                                 </Link>
