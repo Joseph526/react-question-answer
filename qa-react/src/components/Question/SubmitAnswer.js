@@ -29,7 +29,7 @@ class SubmitAnswer extends Component {
         if (!auth0Client.isAuthenticated()) return null;
         return (
             <Fragment>
-                <div className="form-group text-center">
+                <div className="form-group text-left">
                     <label htmlFor="answer">Answer:</label>
                     <input
                         type="text"
